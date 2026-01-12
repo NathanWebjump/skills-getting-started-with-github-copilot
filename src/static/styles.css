@@ -63,6 +63,8 @@ section h3 {
   border: 1px solid #ddd;
   border-radius: 5px;
   background-color: #f9f9f9;
+  /* Add extra spacing for participants section */
+  padding-bottom: 20px;
 }
 
 .activity-card h4 {
@@ -141,4 +143,44 @@ footer {
   margin-top: 30px;
   padding: 20px;
   color: #666;
+}
+
+.participants-section {
+  margin-top: 15px;
+  padding: 10px;
+  background-color: #eef3fb;
+  border-radius: 4px;
+}
+
+.participants-section strong {
+  color: #3949ab;
+  font-size: 15px;
+}
+
+.participants-list {
+  margin: 8px 0 0 18px;
+  padding: 0;
+  list-style-type: disc;
+}
+
+.participant-item {
+  margin-bottom: 3px;
+  font-size: 15px;
+  color: #333;
+}
+
+.participant-email {
+  background: #e3eafc;
+  padding: 2px 6px;
+  border-radius: 3px;
+  font-family: monospace;
+  font-size: 14px;
+}
+
+.no-participants {
+  color: #888;
+  background: #f5f5f5;
+  font-style: italic;
+  padding: 8px;
+  text-align: left;
 }
